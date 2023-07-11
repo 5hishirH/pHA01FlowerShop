@@ -4,40 +4,66 @@
     margin: 0;
     padding: 0;
     font-family: 'Lato', sans-serif;
-    /* box-sizing: border-box; */
 }
 
 section {
     margin-top: 130px;
 }
 
-.intro {
-    background-color: #E554731A;
+.title {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.text {
+    padding: 24px 0 48px;
+    max-width: 600px;
+    margin: 0 auto;
+    color: #27272799;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+/* header related styles */
+header {
     display: flex;
     justify-content: center;
-    align-items: center;
+    background-color: #E554731A;
+}
+
+.intro {
+    width: 80vw;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
 }
 
 .introContainer {
-    max-width: 50%;
-    padding: 5% 0;
+    min-width: 40vw;
+    max-width: 45vw;
+    padding: 15vh 0 10vh;
+    /* background-color: aqua; */
 }
 
 .slogan {
-    font-size: 5em;
+    font-size: 80px;
     color: #272727;
     font-weight: 800;
 }
 
 .introText {
-    padding: 1.8em 0;
-    font-size: 1.2em;
+    padding: 32px 0;
+    font-size: 18px;
     color: #27272799;
     font-weight: 400;
 }
 
 .primaryBtn {
-    padding: 20px 40px;
+    padding: 1.2em 2.5em;
     border: none;
     border-radius: 8px;
     background-color: #E55473;
@@ -46,12 +72,12 @@ section {
 }
 
 .headerFlower {
-    width: 33%;
-    position: bottom;
+    /* background-color: aquamarine; */
+    /* position: relative; */
+    margin-top: auto;
+    padding-top: 5vh;
+    width: 33vw;
 }
-    
-    /* position: bottom; */
-
 
 /* main sector styles*/
 
@@ -75,14 +101,12 @@ section {
 
 .imageContainer {
     margin: 0 auto;
-    /* background-color: red; */
     width: 80vw;
     display: flex;
     justify-content: space-between;
 }
 
 .imageContainer > div {
-    /* background-color: aquamarine; */
     width: 25vw;
     height: 60vh;
     border-radius: 300px 300px 0px 0px;
@@ -158,6 +182,8 @@ section {
     line-height: 35px;
 }
 
+/* offer section */
+
 .offerSection {
     display: flex;
     justify-content: center;
@@ -173,14 +199,12 @@ section {
     padding: 230px 100px 160px 0;
     max-width: 600px;
     text-align: center;
-    /* background-color: aqua; */
 }
 
 .offerTitle {
     color: #272727;
     font-size: 40px;
     font-weight: 800;
-    /* text-align: center; */
 }
 
 .offerTitle > span {
@@ -190,7 +214,6 @@ section {
 .offerDescription {
     padding: 24px 0 32px;
     color: #27272799;
-    /* text-align: center; */
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
@@ -201,26 +224,7 @@ section {
     height: 70%;
 }
 
-/* instagram sector */
-.instaTextContainer {
-    margin: 0 auto;
-    width: 50vw;
-    text-align: center;
-}
-
-.instaTitle {
-    color: #272727;
-    font-size: 40px;
-    font-weight: 800;
-}
-
-.instaText {
-    padding: 24px 0 48px;
-    color: #27272799;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 30px;
-}
+/* instagram section styles */
 
 .instaImgContainer {
     /* background-color: aqua; */
@@ -247,26 +251,11 @@ section {
     background-size: cover;
 }
 
-.dealText {
-    text-align: center;
-}
-
-.dealTitle {
+.dealText > .title {
     padding-top: 120px;
-    color: #272727;
-font-size: 40px;
-font-weight: 800;
 }
 
-.dealDescprition {
-    padding: 16px 0 48px;
-    color: #27272799;
-font-size: 18px;
-font-weight: 400;
-line-height: 30px;
-}
-
-.instaForm {
+.dealsForm {
     display: flex;
     justify-content: center;
     padding-bottom: 120px;
@@ -280,8 +269,8 @@ line-height: 30px;
     margin-right: 16px;
     width: 700px;
     color: #27272799;
-font-size: 16px;
-font-weight: 400;
+    font-size: 16px;
+    font-weight: 400;
 }
 
 /* footer */
@@ -298,15 +287,18 @@ footer {
 
 .footerText1 {
     padding: 24px 0 32px;
+    max-width: 600px;
+    margin: 0 auto;
     color: #ffffffe6;
-font-size: 18px;
-font-weight: 400;
-line-height: 30px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
 }
 
 .footerText2 {
     color: #ffffff66;
-font-size: 16px;
-font-weight: 400;
-padding-bottom: 128px;
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 128px;
 }
