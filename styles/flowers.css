@@ -7,10 +7,9 @@
     /* box-sizing: border-box; */
 }
 
-/* header {
-    display: flex;
-    justify-content: space-evenly;
-} */
+section {
+    margin-top: 130px;
+}
 
 .intro {
     background-color: #E554731A;
@@ -49,4 +48,93 @@
 .headerFlower {
     width: 33%;
     position: bottom;
+}
+    
+    /* position: bottom; */
+
+
+/* main sector styles*/
+
+/*featured flower sector styles*/
+/* .featuredFlower {
+    text-align: center;
+}
+
+.featuredFlowerTitle {
+    color: #272727;
+font-size: 40px;
+font-weight: 800;
+}
+
+.featuredFlowerDescription {
+    /* max-width: 31%; */
+    /*color: #27272799;
+font-size: 18px;
+font-weight: 400;
+}
+
+.flowerContainer {
+    display: flex;
+    justify-content: center;
+    column-gap: 24px;
+}
+
+.flower {
+    /* height: 100%;
+    width: 33%; */
+/*} 
+
+.flowerImageContainer {
+    border-radius: 300px 300px 0px 0px;
+background: rgba(167, 33, 98, 0.15);
+}
+
+.flowerImageContainer > img {
+    padding: 0 76px;
+    max-width: 80%;
+} */
+
+/* offer section */
+
+.offerSection {
+    display: flex;
+    justify-content: center;
+    background-color: #E554730D;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+}
+
+.offerInfoContainer {
+    padding: 230px 100px 160px 0;
+    max-width: 600px;
+    text-align: center;
+    /* background-color: aqua; */
+}
+
+.offerTitle {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    /* text-align: center; */
+}
+
+.offerTitle > span {
+    color: #E55473;
+}
+
+.offerDescription {
+    padding: 24px 0 32px;
+    color: #27272799;
+    /* text-align: center; */
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.offerImg {
+    position: relative;
+    height: 70%;
 }
