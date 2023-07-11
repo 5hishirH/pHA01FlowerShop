@@ -37,7 +37,7 @@ section {
 }
 
 .primaryBtn {
-    padding: 1.2em 2.5em;
+    padding: 20px 40px;
     border: none;
     border-radius: 8px;
     background-color: #E55473;
@@ -171,4 +171,78 @@ background: rgba(167, 33, 98, 0.15);
 .instaImg {
     /* background-color: aquamarine; */
     width: 19vw;
+}
+
+/* get deals sector */
+.getDeals {
+    width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url('../images/Rectangle 9.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.dealText {
+    text-align: center;
+}
+
+.dealTitle {
+    padding-top: 120px;
+    color: #272727;
+font-size: 40px;
+font-weight: 800;
+}
+
+.dealDescprition {
+    padding: 16px 0 48px;
+    color: #27272799;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+}
+
+.instaForm {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 120px;
+
+}
+
+.getDealsEmail {
+    border: none;
+    border-radius: 8px;
+    padding: 23px 0 23px 22px;
+    margin-right: 16px;
+    width: 700px;
+    color: rgba(39, 39, 39, 0.60);
+font-size: 16px;
+font-weight: 400;
+}
+
+/* footer */
+footer {
+    margin-top: 130px;
+    background-color: #111010;
+    text-align: center;
+}
+.footerTitle {
+    padding-top: 128px;
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.footerText1 {
+    padding: 24px 0 32px;
+    color: #ffffffe6;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+}
+
+.footerText2 {
+    color: #ffffff66;
+font-size: 16px;
+font-weight: 400;
+padding-bottom: 128px;
 }
