@@ -55,46 +55,77 @@ section {
 
 /* main sector styles*/
 
-/*featured flower sector styles*/
-/* .featuredFlower {
-    text-align: center;
-}
-
-.featuredFlowerTitle {
+.featuredFlowerTile {
     color: #272727;
-font-size: 40px;
-font-weight: 800;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
 }
 
-.featuredFlowerDescription {
-    /* max-width: 31%; */
-    /*color: #27272799;
-font-size: 18px;
-font-weight: 400;
+.featuredFlowerText {
+    padding: 24px 0 48px;
+    max-width: 600px;
+    margin: 0 auto;
+    color: #27272799;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
 }
 
-.flowerContainer {
+.imageContainer {
+    margin: 0 auto;
+    /* background-color: red; */
+    width: 80vw;
     display: flex;
-    justify-content: center;
-    column-gap: 24px;
+    justify-content: space-between;
 }
 
-.flower {
-    /* height: 100%;
-    width: 33%; */
-/*} 
-
-.flowerImageContainer {
+.imageContainer > div {
+    /* background-color: aquamarine; */
+    width: 25vw;
+    height: 60vh;
     border-radius: 300px 300px 0px 0px;
-background: rgba(167, 33, 98, 0.15);
 }
 
-.flowerImageContainer > img {
-    padding: 0 76px;
-    max-width: 80%;
-} */
+.image1 {
+    background-color: #a7216226;
+    background-image: url('/images/pngwing 6.png');
+    background-size: 16vw;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+}
 
-/* offer section */
+.image2 {
+    background-color: #0597a026;
+    background-image: url('/images/pngwing 5.png');
+    background-size: 20vw;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.image3 {
+    background-color: #477d1126;
+    background-image: url('/images/pngwing 7.png');
+    background-size: 17vw;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+}
+
+.captionContainer {
+    margin: 18px auto 0;
+    width: 80vw;
+    display: flex;
+    justify-content: space-around;
+}
+
+.captionText {
+    color: #272727;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
+}
 
 .offerSection {
     display: flex;
