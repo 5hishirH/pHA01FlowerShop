@@ -90,7 +90,7 @@ section {
 
 .image1 {
     background-color: #a7216226;
-    background-image: url('/images/pngwing 6.png');
+    background-image: url('../images/pngwing 6.png');
     background-size: 16vw;
     background-repeat: no-repeat;
     background-position: bottom center;
@@ -98,7 +98,7 @@ section {
 
 .image2 {
     background-color: #0597a026;
-    background-image: url('/images/pngwing 5.png');
+    background-image: url('../images/pngwing 5.png');
     background-size: 20vw;
     background-repeat: no-repeat;
     background-position: center;
@@ -106,7 +106,7 @@ section {
 
 .image3 {
     background-color: #477d1126;
-    background-image: url('/images/pngwing 7.png');
+    background-image: url('../images/pngwing 7.png');
     background-size: 17vw;
     background-repeat: no-repeat;
     background-position: bottom center;
@@ -125,6 +125,37 @@ section {
     font-weight: 700;
     line-height: 35px;
     text-decoration-line: underline;
+}
+
+/* service section */
+.services {
+    width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    background-color: #2727270d;
+}
+
+.serviceContainer {
+    min-width: 60vw;
+    padding: 86px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.serviceInfo > img {
+    display: block;
+    margin: 0 auto;
+}
+
+.serviceText {
+    padding: 0 10px;
+    color: #272727cc;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 35px;
 }
 
 .offerSection {
@@ -209,8 +240,10 @@ section {
     width: 80vw;
     margin-left: auto;
     margin-right: auto;
+    border-radius: 8px;
     background-image: url('../images/Rectangle 9.png');
     background-repeat: no-repeat;
+    background-position: center;
     background-size: cover;
 }
 
@@ -246,7 +279,7 @@ line-height: 30px;
     padding: 23px 0 23px 22px;
     margin-right: 16px;
     width: 700px;
-    color: rgba(39, 39, 39, 0.60);
+    color: #27272799;
 font-size: 16px;
 font-weight: 400;
 }
